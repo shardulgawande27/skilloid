@@ -522,7 +522,7 @@ ul{
 
 }
 
-.btn1{
+/* .preview1 .btn1{
     background: blue;
     border: 1px solid transparent;
     box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
@@ -537,7 +537,7 @@ ul{
     transition: all 0.4s ease-in-out;
     font-weight: bold;
     border-radius: 20px;
-}
+} */
 
 .btn:hover{
     background: #fff;
@@ -545,6 +545,13 @@ ul{
     border: 1px solid #e40046;
     transform: scale(1.05);
 }
+
+/* .preview1 .btn1:hover{
+    background: #fff;
+    color: #e40046;
+    border: 1px solid #e40046;
+    transform: scale(1.05);
+} */
 
 @media (max-width:768px){
     .course{
