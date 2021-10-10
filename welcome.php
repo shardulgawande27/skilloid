@@ -119,7 +119,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <ul>
             <li><a href="#"><span><i class="fas fa-bell"></i></span></a></li>
             <li><a href="#">My Courses</a></li>
-            <li><a href="contact1.html">Contact</a></li>
+            <li><a href="contact1.html">Contact Us</a></li>
             <li><a href="profile.html"><span><i class="fas fa-user"></i></span></a></li>
 
         </ul>
@@ -142,7 +142,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <div class="banner-content">
                 <span> New Courses</span>
                 <h1>Java Course</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, saepe dolorem eligendi ipsum consequatur molestiae numquam quae voluptas omnis deleniti pariatur iure earum blanditiis ex nihil </p>
+                <p>New to Coding! Dont worry,We cover everything here.</p>
                 <a href="#" class="hero-btn-one">Discover</a>
                 <a href="#" class="hero-btn-two">Enroll Now</a>
                 
