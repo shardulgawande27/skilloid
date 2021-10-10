@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c1d1f;
+    color: #ffffff;
+}
+header{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+.textc{
+    margin: 2rem;
+}
+.vidc1{
+    display: flex;
+    margin: 2rem;
+}
+.vidc2{
+    display: flex;
+    margin: 2rem;
+}
+.vidc3{
+    display: flex;
+    margin: 2rem;
+}
+.vidc4{
+    display: flex;
+    margin: 2rem;
+}

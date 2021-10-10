@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c1d1f;
+    color: #ffffff;
+}
+header{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+.textjs{
+    margin: 2rem;
+}
+.vidjs1{
+    display: flex;
+    margin: 2rem;
+}
+.vidjs2{
+    display: flex;
+    margin: 2rem;
+}
+.vidjs3{
+    display: flex;
+    margin: 2rem;
+}
+.vidjs4{
+    display: flex;
+    margin: 2rem;
+}
+.ijs{
+    display: block;
+    width:30%
+    
+}

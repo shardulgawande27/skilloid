@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1c1d1f;
+    color: #ffffff;
+}
+header{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 2rem;
+}
+.textj{
+    margin: 2rem;
+}
+.vidj1{
+    display: flex;
+    margin: 2rem;
+}
+.vidj2{
+    display: flex;
+    margin: 2rem;
+}
+.vidj3{
+    display: flex;
+    margin: 2rem;
+}
+.vidj4{
+    display: flex;
+    margin: 2rem;
+}

@@ -639,3 +639,9 @@ ul{
     transition: .5s;
     cursor: pointer;
 }
+
+.course-collection a{
+
+    color: black;
+
+}
