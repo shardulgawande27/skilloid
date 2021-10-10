@@ -119,8 +119,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         <ul>
             <li><a href="#"><span><i class="fas fa-bell"></i></span></a></li>
             <li><a href="#">My Courses</a></li>
-            <li><a href="contact1.html">Contact Us</a></li>
-            <li><a href="profile.html"><span><i class="fas fa-user"></i></span></a></li>
+            <li><a href="contact1.html">Contact</a></li>
+            <li><a href="profile.php"><span><i class="fas fa-user"></i></span></a></li>
 
         </ul>
         <label for="check" class="bar">
@@ -142,7 +142,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <div class="banner-content">
                 <span> New Courses</span>
                 <h1>Java Course</h1>
-                <p>New to Coding! Dont worry,We cover everything here.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, saepe dolorem eligendi ipsum consequatur molestiae numquam quae voluptas omnis deleniti pariatur iure earum blanditiis ex nihil </p>
                 <a href="#" class="hero-btn-one">Discover</a>
                 <a href="#" class="hero-btn-two">Enroll Now</a>
                 
@@ -232,6 +232,14 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 <section class="course-container">
 
 <div class="container">
+
+    <div class="carousel-title">
+        <h1>
+            Continue Where you left
+        </h1>
+    </div>
+    <div class="border"></div>
+
     
     <div class="course">
         <div class="preview">
@@ -254,7 +262,37 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatem vitae. Sequi consectetur doloribus
             </p>
             <button class="btn">
-                Next Chapter
+                <a href="vidj.html">
+                    Continue
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <div class="course">
+        <div class="preview1">
+            <h6>Course</h6>
+            <h2>Photoshop </h2>
+            <a href="#">View all Chapters</a>
+        </div>
+        <div class="info">
+            <div class="progress-wrapper">
+                <div class="progress-card">
+
+                </div>
+                <span class="progress-text">
+                    7/13 Courses
+                </span>
+            </div>
+            <h6>Javascript</h6>
+            <h2>Javascript, Html & css</h2>
+            <p class="para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, voluptatem vitae. Sequi consectetur doloribus
+            </p>
+            <button class="btn1">
+                <a href="vid.html">
+                Continue
+            </a>
             </button>
         </div>
     </div>
@@ -290,7 +328,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-           <button>Enroll Now</button>
+           <button><a href="vid.html">View More</a></button>
            </div>
            </div>
            <!--cards -->
@@ -307,7 +345,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-           <button>Enroll Now</button>
+            <button><a href="vidc.html">View More</a></button>
            </div>
            </div>
            <!--cards -->
@@ -324,7 +362,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-           <button>Enroll Now</button>
+            <button><a href="vidj.html">View More</a></button>
            </div>
            </div>
            <!--cards -->
@@ -341,13 +379,13 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-           <button>Enroll Now</button>
+            <button><a href="vidjs.html">View More</a></button>
            </div>
            </div>
            <!--cards -->
            
            
-           <div class="card">
+           <!-- <div class="card">
            
            <div class="image">
               <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
@@ -360,10 +398,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <p>You can Add Desccription Here...</p>
            <button>Enroll Now</button>
            </div>
-           </div>
+           </div> -->
            <!--cards -->
            
-           <div class="card">
+           <!-- <div class="card">
            
            <div class="image">
               <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
@@ -376,10 +414,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <p>You can Add Desccription Here...</p>
            <button>Enroll Now</button>
            </div>
-           </div>
+           </div> -->
            <!--cards -->
            
-           <div class="card">
+           <!-- <div class="card">
            
            <div class="image">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
@@ -393,11 +431,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
            <button>Enroll Now</button>
            
            </div>
-           </div>
+           </div> -->
            <!--cards -->
            
            
-           <div class="card">
+           <!-- <div class="card">
            
            <div class="image">
               <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
@@ -410,11 +448,11 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             <p>You can Add Desccription Here...</p>
            <button>Enroll Now</button>
            </div>
-           </div>
+           </div> -->
            <!--cards -->
            
            
-           <div class="card">
+           <!-- <div class="card">
            
            <div class="image">
               <img src="https://cdn.pixabay.com/photo/2015/11/07/11/41/lake-1031405_1280.jpg">
@@ -428,7 +466,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
            <button>Enroll Now</button>
            </div>
            </div>
-           </div>-
+           </div> -->
 
     </section>
 
@@ -491,3 +529,4 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
     
 </body>
 </html>
+
