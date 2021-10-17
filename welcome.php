@@ -91,6 +91,10 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <!-- my stylesheet -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+    
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -118,8 +122,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
         </div>
         <ul>
             <li><a href="#"><span><i class="fas fa-bell"></i></span></a></li>
-            <li><a href="#">My Courses</a></li>
             <li><a href="contact1.html">Contact</a></li>
+            <li><h3><a href="#">My Courses</a></h3></li>
             <li><a href="profile.php"><span><i class="fas fa-user"></i></span></a></li>
 
         </ul>
@@ -170,7 +174,9 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
             </div>
 
             <div class="course-title">
-                <h1>course 1</h1>
+                <h1>Web Development</h1>
+                <a href="course1.html"><button>View More</button></a>
+
             </div>
         </div>
         <div class="carousel-cell">
@@ -180,6 +186,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
             <div class="course-title">
                 <h1>course 2</h1>
+                <a href="vid.html"><button>View More</button></a>
+
             </div>
         </div>
         <div class="carousel-cell">
@@ -189,6 +197,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
             <div class="course-title">
                 <h1>course 3</h1>
+                <a href="vid.html"><button>View More</button></a>
+
             </div>
         </div>
         <div class="carousel-cell">
@@ -198,6 +208,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
             <div class="course-title">
                 <h1>course 4</h1>
+                <a href="vid.html"><button>View More</button></a>
+
             </div>
         </div>
         <div class="carousel-cell">
@@ -207,6 +219,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
             <div class="course-title">
                 <h1>course 5</h1>
+                <a href="vid.html"><button>View More</button></a>
+
             </div>
         </div>
         <div class="carousel-cell">
@@ -216,6 +230,8 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
             <div class="course-title">
                 <h1>course 6</h1>
+                                <a href="vid.html"><button>View More</button></a>
+
             </div>
         </div>
 
@@ -315,73 +331,128 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
         <div class="main">
 
-            <!--cards -->
            
            <div class="card">
            
-           <div class="image">
+           <!-- <div class="image">
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg/1199px-Gfp-missouri-st-louis-clubhouse-pond-and-scenery.jpg">
            </div>
            <div class="title">
-            <h1>
-           Write title Here</h1>
+            <h2>
+           Write title Here</h2>
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-           <button><a href="vid.html">View More</a></button>
+           <button>View More</button>
+           <span></span>
+           </div> -->
            </div>
-           </div>
-           <!--cards -->
            
            
            <div class="card">
            
-           <div class="image">
+           <!-- <div class="image">
               <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
            </div>
            <div class="title">
-            <h1>
-           Write title Here</h1>
+            <h2>
+           Write title Here</h2>
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-            <button><a href="vidc.html">View More</a></button>
+            <button>View More</button>
+            <span></span>
+           </div> -->
            </div>
-           </div>
-           <!--cards -->
            
            
            <div class="card">
            
-           <div class="image">
+           <!-- <div class="image">
               <img src="https://cdn.pixabay.com/photo/2015/11/07/11/41/lake-1031405_1280.jpg">
            </div>
            <div class="title">
-            <h1>
-           Write title Here</h1>
+            <h2>
+           Write title Here</h2>
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-            <button><a href="vidj.html">View More</a></button>
+            <button>View More</button>
+            <span></span>
+           </div> -->
            </div>
-           </div>
-           <!--cards -->
            
            
            <div class="card">
            
-           <div class="image">
+           <!-- <div class="image">
               <img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
            </div>
            <div class="title">
-            <h1>
-           Write title Here</h1>
+            <h2>
+           Write title Here</h2>
            </div>
            <div class="des">
             <p>You can Add Desccription Here...</p>
-            <button><a href="vidjs.html">View More</a></button>
+            <button>View More</button>
+            <span></span>
+        </div> -->
            </div>
-           </div>
+
+
+    
+       <!-- <h3><a href="#">Course</a></h3> -->
+
+       <section class="course-enroll">
+
+		<div class="item">
+			<img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+			<h2>Course Title </h2>
+            <p>You can Add Desccription Here...</p>
+
+			<!-- <h6>$345.89</h6> -->
+			<span></span>
+			<button>Enroll Now</button>
+            <a href="vid.html"><button>View More</button></a>
+			
+		</div>
+		<div class="item">
+			<img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+             <h2>Course Title </h2>
+             <p>You can Add Desccription Here...</p>
+
+             <!-- <h6>$345.89</h6> -->
+			<span></span>
+			<button>Enroll Now</button>
+            <a href="vidj.html"><button>View More</button></a>
+		</div>
+		<div class="item">
+			<img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+			<h2>Course Title </h2>
+            <p>You can Add Desccription Here...</p>
+
+            <!-- <h6>$345.89</h6> -->
+			<span></span>
+			<button>Enroll Now</button>
+            <a href="vidjs.html"><button>View More</button></a>
+		</div>
+		<div class="item">
+			<img src="https://cdn.pixabay.com/photo/2018/01/09/03/49/the-natural-scenery-3070808_1280.jpg">
+			<h2>Course Title </h2>
+            <p>You can Add Desccription Here...</p>
+
+            <!-- <h6>$345.89</h6> -->
+			<span></span>
+			<button>Enroll Now</button>
+            <a href="vidc.html"><button>View More</button></a>
+		</div>
+        
+	</section>
+	<div class="select">
+		
+	</div>
+
+	
            <!--cards -->
            
            
@@ -522,11 +593,35 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !==true)
 
 
 <!-- JS -->
-<script>
+<script type="text/javascript" src="js/main.js"></script>
+
+
+<script type="text/javascript">
     const trunc = document.querySelector('.p-trunc');
     trunc.innerText = trunc.innerText.substring(0,100) + '...';
+
 </script>
+
+
+<!-- <script type="text/javascript">
+
+    var noti = document.querySelector('h1');
+    var select = document.querySelector('.select');
+    var button = document.getElementsByTagNameNS('button');
+    for(but of button)
+    {
+        but.addEventListener('click', (e)=>{
+            var add = Number(noti.getAttribute('data-count')|| 0);
+            noti.setAttribute('data-count', add + 1);
+            noti.classList.add('zero');
+            
+        })
+    }
+
+
+</script> -->
     
 </body>
 </html>
+
 

@@ -57,13 +57,12 @@
 		    font-size: 15px;
 		}
 		button{
-			padding: 5px;
-		    background: red;
-		    border: none;
-		    outline: none;
-		    font-weight: bold;
-		    color: #fafafa;
-		    cursor: pointer;
+			margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding:10px 20px;
 		}
 		.course-enroll div span{
 			position: absolute;
@@ -189,8 +188,7 @@
 	box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
 	border-radius: 10px;
 	margin-right: 70px;
-
-
+	
 }
 
 .item img{
@@ -217,4 +215,12 @@
 
 .course-enroll{
 	margin-top: -70px;
+	margin-bottom: 200px;
+	
 }
+
+.course-enroll div{
+padding-bottom: 29%;
+
+}
+
